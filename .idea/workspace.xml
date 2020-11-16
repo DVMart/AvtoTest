@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="624e690e-21c3-4472-a4ec-26a1eec0f67b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jT325GR9CyVas2rCrpjyRJ1O72" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AvtoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.company" />
+      <option name="MAIN_CLASS_NAME" value="ru.company.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="624e690e-21c3-4472-a4ec-26a1eec0f67b" name="Default Changelist" comment="" />
+      <created>1603814055830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603814055830</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="166" y="1080" width="1024" height="768" key="#Project_Structure" timestamp="1603814758554">
+      <screen x="0" y="1080" width="1366" height="768" />
+    </state>
+    <state x="166" y="1080" width="1024" height="768" key="#Project_Structure/54.21.1866.1059/0.1080.1366.768@0.1080.1366.768" timestamp="1603814758554" />
+    <state width="1820" height="276" key="GridCell.Tab.0.bottom" timestamp="1605552086322">
+      <screen x="0" y="21" width="3286" height="1059" />
+    </state>
+    <state width="1820" height="276" key="GridCell.Tab.0.bottom/0.21.3286.1059@0.21.3286.1059" timestamp="1605552086322" />
+    <state width="1320" height="181" key="GridCell.Tab.0.bottom/54.21.1866.1059/0.1080.1366.768@0.1080.1366.768" timestamp="1603832209225" />
+    <state width="1820" height="276" key="GridCell.Tab.0.center" timestamp="1605552086321">
+      <screen x="0" y="21" width="3286" height="1059" />
+    </state>
+    <state width="1820" height="276" key="GridCell.Tab.0.center/0.21.3286.1059@0.21.3286.1059" timestamp="1605552086321" />
+    <state width="1320" height="181" key="GridCell.Tab.0.center/54.21.1866.1059/0.1080.1366.768@0.1080.1366.768" timestamp="1603832209225" />
+    <state width="1820" height="276" key="GridCell.Tab.0.left" timestamp="1605552086321">
+      <screen x="0" y="21" width="3286" height="1059" />
+    </state>
+    <state width="1820" height="276" key="GridCell.Tab.0.left/0.21.3286.1059@0.21.3286.1059" timestamp="1605552086321" />
+    <state width="1320" height="181" key="GridCell.Tab.0.left/54.21.1866.1059/0.1080.1366.768@0.1080.1366.768" timestamp="1603832209225" />
+    <state width="1820" height="276" key="GridCell.Tab.0.right" timestamp="1605552086322">
+      <screen x="0" y="21" width="3286" height="1059" />
+    </state>
+    <state width="1820" height="276" key="GridCell.Tab.0.right/0.21.3286.1059@0.21.3286.1059" timestamp="1605552086322" />
+    <state width="1320" height="181" key="GridCell.Tab.0.right/54.21.1866.1059/0.1080.1366.768@0.1080.1366.768" timestamp="1603832209225" />
+    <state x="1420" y="47" width="1866" height="1017" key="SettingsEditor" timestamp="1605550373874">
+      <screen x="0" y="21" width="3286" height="1059" />
+    </state>
+    <state x="1420" y="47" width="1866" height="1017" key="SettingsEditor/0.21.3286.1059@0.21.3286.1059" timestamp="1605550373874" />
+    <state x="172" y="1099" width="1022" height="737" key="SettingsEditor/54.21.1866.1059/0.1080.1366.768@0.1080.1366.768" timestamp="1603820466618" />
+    <state x="2044" y="159" width="618" height="783" key="find.popup" timestamp="1605543407061">
+      <screen x="0" y="21" width="3286" height="1059" />
+    </state>
+    <state x="2044" y="159" width="618" height="783" key="find.popup/0.21.3286.1059@0.21.3286.1059" timestamp="1605543407061" />
+  </component>
+</project>
