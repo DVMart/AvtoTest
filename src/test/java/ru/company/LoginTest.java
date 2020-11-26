@@ -37,6 +37,11 @@ public class LoginTest {
 
     @AfterClass
     public static void tearDown() {
-        profilePage.entryMenu();
-        profilePage.userLogout();
-        driver.quit(); } }
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        profilePage.newMsg();
+        profilePage.inputAddress(ConfProperties.getProperty("adrs"));
+        profilePage.inputSubj(ConfProperties.getProperty("subj"));
+        profilePage.inputText(ConfProperties.getProperty("msg"));
+        profilePage.send();
+        //driver.quit();
+    } }

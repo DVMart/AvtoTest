@@ -14,21 +14,34 @@ public class ProfilePage {
         PageFactory.initElements(driver, this);
         this.driver = driver; }
 
-    @FindBy(xpath = "//*[contains(@class, 'account__name_hasAccentLetter')]")
-    private WebElement userMenu;
+    @FindBy(xpath = "//*[contains(@class, 'mail-ComposeButton js-main-action-compose')]")
+    private WebElement newMsg;
 
-    @FindBy(xpath = "//*[contains(@class, 'menu-item_action_exit menu__item menu__item_type_link')]")
-    private WebElement logoutBtn;
+    @FindBy(xpath = "//*[contains(@class, 'composeYabbles')]")
+    private WebElement inputAddress;
 
-    public String getUserName() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@class, 'account__name_hasAccentLetter')]")));
-        String userName = userMenu.getText();
-        return userName; }
+    @FindBy(xpath = "//*[contains(@class, 'composeTextField ComposeSubject-TextField')]")
+    private WebElement inputSubj;
 
-    public void entryMenu() {
-        userMenu.click(); }
+    @FindBy(xpath = "//*[contains(@class, 'cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr cke_htmlplaceholder')]")
+    private WebElement inputText;
 
-    public void userLogout() {
-        logoutBtn.click(); }
+    @FindBy(xpath = "//*[contains(@class, 'control button2 button2_view_default button2_tone_default button2_size_l button2_theme_action button2_pin_circle-circle ComposeControlPanelButton-Button ComposeControlPanelButton-Button_action')]")
+    private WebElement send;
+
+    public void newMsg() {
+        newMsg.click(); }
+
+    public void inputAddress(String adrs) {
+        inputAddress.sendKeys(adrs); }
+
+    public void inputSubj(String subj) {
+        inputSubj.sendKeys(subj); }
+
+    public void inputText(String msg) {
+        inputText.sendKeys(msg); }
+
+    public void send() {
+        send.click(); }
+
 }
